@@ -16,7 +16,7 @@ function formatAttendanceReport(students) {
 }
 
 console.log( formatAttendanceReport([{ name: "Rafi", present: 18, total: 20 }]))
-// ["Rafi: 18/20 (90%) - Excellent"]
+// ["`+- Rafi: 18/20 (90%) - Excellent"]
 
 console.log(formatAttendanceReport([
   { name: "Lina", present: 15, total: 20 },
